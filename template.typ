@@ -49,7 +49,15 @@
 
   // We have to put things before content here, so that it is not affected by chapter styles
   set page(
-    numbering: "i"
+    numbering: "i",
+    header: context {
+      if calc.odd(here().page()) {
+        align(right, counter(page).display())
+      } else {
+        align(left, counter(page).display())
+      }
+    },
+    footer: none,
   )
   set heading(outlined: false)
   preface
