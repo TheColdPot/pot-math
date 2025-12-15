@@ -15,3 +15,4 @@
 #let null = math.op("null")
 #let Cc = $C_upright(c)$
 #let bb1 = math.bb("1")
+#let dim = math.op("dim")
