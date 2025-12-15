@@ -1,28 +1,28 @@
-#let _replacements = (
-  AA: math.upright(math.bold("A")),
-  BB: math.upright(math.bold("B")),
-  CC: math.upright(math.bold("C")),
-  DD: math.upright(math.bold("D")),
-  EE: math.upright(math.bold("E")),
-  FF: math.upright(math.bold("F")),
-  GG: math.upright(math.bold("G")),
-  HH: math.upright(math.bold("H")),
-  II: math.upright(math.bold("I")),
-  JJ: math.upright(math.bold("J")),
-  KK: math.upright(math.bold("K")),
-  LL: math.upright(math.bold("L")),
-  MM: math.upright(math.bold("M")),
-  NN: math.upright(math.bold("N")),
-  OO: math.upright(math.bold("O")),
-  PP: math.upright(math.bold("P")),
-  QQ: math.upright(math.bold("Q")),
-  RR: math.upright(math.bold("R")),
-  SS: math.upright(math.bold("S")),
-  TT: math.upright(math.bold("T")),
-  UU: math.upright(math.bold("U")),
-  VV: math.upright(math.bold("V")),
-  WW: math.upright(math.bold("W")),
-  XX: math.upright(math.bold("X")),
-  YY: math.upright(math.bold("Y")),
-  ZZ: math.upright(math.bold("Z")),
-)
+
+#let AA = math.upright(math.bold("A"))
+#let BB = math.upright(math.bold("B"))
+#let CC = math.upright(math.bold("C"))
+#let DD = math.upright(math.bold("D"))
+#let EE = math.upright(math.bold("E"))
+#let FF = math.upright(math.bold("F"))
+#let GG = math.upright(math.bold("G"))
+#let HH = math.upright(math.bold("H"))
+#let II = math.upright(math.bold("I"))
+#let JJ = math.upright(math.bold("J"))
+#let KK = math.upright(math.bold("K"))
+#let LL = math.upright(math.bold("L"))
+#let MM = math.upright(math.bold("M"))
+#let NN = math.upright(math.bold("N"))
+#let OO = math.upright(math.bold("O"))
+#let PP = math.upright(math.bold("P"))
+#let QQ = math.upright(math.bold("Q"))
+#let RR = math.upright(math.bold("R"))
+#let SS = math.upright(math.bold("S"))
+#let TT = math.upright(math.bold("T"))
+#let UU = math.upright(math.bold("U"))
+#let VV = math.upright(math.bold("V"))
+#let WW = math.upright(math.bold("W"))
+#let XX = math.upright(math.bold("X"))
+#let YY = math.upright(math.bold("Y"))
+#let ZZ = math.upright(math.bold("Z"))
+
