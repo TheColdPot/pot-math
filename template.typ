@@ -1,6 +1,7 @@
 #import "default-theorems.typ"
 #import "blackboard-replacement.typ"
 #import "constants.typ"
+#import "environments.typ"
 #import "@preview/hydra:0.6.2": hydra
 
 
