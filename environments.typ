@@ -42,3 +42,8 @@
   *#proof*#h(1em)#content
   #h(1fr)#sym.square
 ]
+
+
+#let remark(content) = [
+  *注*#h(1em)#content
+]
