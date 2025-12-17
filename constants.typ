@@ -16,3 +16,5 @@
 #let Cc = $C_upright(c)$
 #let bb1 = math.bb("1")
 #let dim = math.op("dim")
+#let ob = math.op("ob")
+#let Hom = math.op("Hom")
