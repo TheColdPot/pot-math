@@ -13,6 +13,7 @@
   cjk-sans-font: "SimHei",
   cjk-emph-font: "KaiTi",
   title: "Book",
+  include-figure-supplement: false,
   // content
   outline: outline(),
   preface: [],
@@ -47,6 +48,19 @@
 
   // The original counter is ignored, because we use a "global" numbering, in which figures, theorems, etc. use the same counter.
   set figure(numbering: _ => counter(heading).display("1.1.") + counter(figure).display("1"))
+
+  show ref: it => {
+    let el = it.element
+    if el == none or el.func() != figure { return it }
+    link(
+      el.location(),
+      if include-figure-supplement {
+        el.supplement
+      } else { "" }
+        + numbering("1.1.", ..counter(heading).at(el.location()))
+        + numbering("1", ..counter(figure).at(el.location())),
+    )
+  }
 
   // We have to put things before content here, so that it is not affected by chapter styles
   set page(
